@@ -16,8 +16,9 @@
   "scripts": {
     "init": "lerna init",
     "bootstrap": "lerna bootstrap",
+    "build": "lerna run build",
     "test": "lerna run test",
-    "publish": "lerna publish"
+    "publish": "lerna publish --skip-npm && yarn run build && sh tools/publish.sh"
   },
   "devDependencies": {
     "lerna": "2.11.0",

@@ -1,6 +1,6 @@
 {
   "name": "@taqtile/ts-class-extensions",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "description": "TypeScript class extensions",
   "homepage": "https://github.com/indigotech/taq-node-web-tools",
   "bugs": "https://github.com/indigotech/taq-node-web-tools/issues",
@@ -21,7 +21,7 @@
     "prepare": "yarn run build"
   },
   "devDependencies": {
-    "@taqtile/publish-package-json": "^0.1.0",
+    "@taqtile/publish-package-json": "^0.2.1",
     "@types/jest": "22.2.3",
     "copyfiles": "2.0.0",
     "jest": "22.4.4",
