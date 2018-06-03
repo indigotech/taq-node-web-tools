@@ -1,6 +1,6 @@
-# Typescript RX extensions
+# Typescript Thenable RX extensions
 
-RXjs extensions
+Thenable RXjs extensions
 
 
 ## Contents

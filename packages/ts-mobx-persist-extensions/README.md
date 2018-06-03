@@ -1,6 +1,6 @@
-# Mobx Extension Module
+# Mobx Persist Extension Module
 
-This module contains Mobx's and Mobx-related packages' extensions.
+This module contains Mobx's Persist extensions.
 
 ## Contents
 

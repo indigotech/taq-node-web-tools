@@ -2,10 +2,18 @@
   "name": "@taqtile/publish-package-json",
   "version": "0.1.0",
   "description": "Commnad line utility to clean and copy package.json for publishing version",
+  "homepage": "https://github.com/indigotech/taq-node-web-tools",
+  "bugs": "https://github.com/indigotech/taq-node-web-tools/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/indigotech/taq-node-web-tools.git"
+  },
+  "author": "Taqtile",
+  "license": "MIT",
   "bin": {
     "clean-to-publish": "./bin/index.js"
   },
-  "repository": "https://github.com/indigotech/template-react.git",
-  "author": "Taqtile",
-  "license": "MIT"
+  "publishConfig": {
+    "access": "public"
+  }
 }

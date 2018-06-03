@@ -2,12 +2,16 @@
   "name": "@taqtile/gulp-module-resolver",
   "version": "0.1.0",
   "description": "Resolve aliased dependencies based on TS Config alias map",
-  "main": "index.js",
-  "scripts": {
-    "test": "test"
+  "homepage": "https://github.com/indigotech/taq-node-web-tools",
+  "bugs": "https://github.com/indigotech/taq-node-web-tools/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/indigotech/taq-node-web-tools.git"
   },
   "author": "Taqtile",
   "license": "MIT",
+  "main": "index.js",
+  "scripts": {},
   "dependencies": {
     "lodash.defaults": "4.2.0",
     "lodash.first": "3.0.0",
@@ -22,10 +26,17 @@
   },
   "jest": {
     "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(js)$",
-    "testPathIgnorePatterns": [ "/node_modules/" ],
-    "moduleFileExtensions": [ "js" ]
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "moduleFileExtensions": [
+      "js"
+    ]
   },
   "engines": {
     "node": ">=4"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

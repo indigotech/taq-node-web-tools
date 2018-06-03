@@ -2,19 +2,24 @@
   "name": "@taqtile/ts-data-mapper",
   "version": "0.1.0",
   "description": "TypeScript data mapper",
-  "repository": "https://github.com/indigotech/template-react.git",
-  "main": "index.js",
-  "typings": "index.d.ts",
+  "homepage": "https://github.com/indigotech/taq-node-web-tools",
+  "bugs": "https://github.com/indigotech/taq-node-web-tools/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/indigotech/taq-node-web-tools.git"
+  },
   "author": "Taqtile",
   "license": "MIT",
+  "main": "index.js",
+  "typings": "index.d.ts",
   "scripts": {
-    "preinstall": "yarn cache clean @taqtile/publish-package-json",
     "clean": "rimraf dist",
     "prebuild": "yarn run clean",
     "build": "tsc",
     "test": "jest --colors --verbose --coverage",
     "postbuild": "yarn run copy-files && clean-to-publish",
-    "copy-files": "copyfiles './README.md' './LICENSE' 'dist/'"
+    "copy-files": "copyfiles './README.md' './LICENSE' 'dist/'",
+    "prepare": "yarn run build"
   },
   "dependencies": {
     "lodash.get": "^4.4.2",
@@ -23,13 +28,12 @@
     "lodash.isstring": "^4.0.1"
   },
   "devDependencies": {
-    "@taqtile/publish-package-json": "file:../publish-package-json",
+    "@taqtile/publish-package-json": "^0.1.0",
     "@types/jest": "22.2.3",
     "copyfiles": "2.0.0",
     "jest": "22.4.4",
     "rimraf": "2.6.2",
-    "ts-jest": "22.4.6",
-    "typescript": "2.8.1"
+    "ts-jest": "22.4.6"
   },
   "jest": {
     "transform": {
@@ -48,5 +52,8 @@
       "ts",
       "js"
     ]
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
