@@ -1,6 +1,6 @@
 {
   "name": "@taqtile/gulp-module-resolver",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Resolve aliased dependencies based on TS Config alias map",
   "homepage": "https://github.com/indigotech/taq-node-web-tools",
   "bugs": "https://github.com/indigotech/taq-node-web-tools/issues",
