@@ -22,7 +22,7 @@
     "prepare": "yarn run build"
   },
   "devDependencies": {
-    "@taqtile/publish-package-json": "0.1.0",
+    "@taqtile/publish-package-json": "^0.1.0",
     "@types/jest": "22.2.3",
     "@types/webpack": "4.4.0",
     "copyfiles": "2.0.0",

@@ -20,13 +20,12 @@
     "copy-files": "copyfiles './README.md' './LICENSE' 'dist/'",
     "prepare": "yarn run build"
   },
-  "dependencies": {},
   "peerDependencies": {
     "reflect-metadata": "0.1.12",
     "typedi": "^0.6.1"
   },
   "devDependencies": {
-    "@taqtile/publish-package-json": "0.1.0",
+    "@taqtile/publish-package-json": "^0.1.0",
     "@types/jest": "21.1.1",
     "copyfiles": "1.2.0",
     "jest": "21.2.1",

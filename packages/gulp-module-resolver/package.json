@@ -11,8 +11,7 @@
   "author": "Taqtile",
   "license": "MIT",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "dependencies": {
     "lodash.defaults": "4.2.0",
     "lodash.first": "3.0.0",
@@ -27,8 +26,12 @@
   },
   "jest": {
     "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(js)$",
-    "testPathIgnorePatterns": [ "/node_modules/" ],
-    "moduleFileExtensions": [ "js" ]
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "moduleFileExtensions": [
+      "js"
+    ]
   },
   "engines": {
     "node": ">=4"
