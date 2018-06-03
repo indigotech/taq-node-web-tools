@@ -1,0 +1,11 @@
+{
+  "name": "@taqtile/publish-package-json",
+  "version": "0.1.0",
+  "description": "Commnad line utility to clean and copy package.json for publishing version",
+  "bin": {
+    "clean-to-publish": "./bin/index.js"
+  },
+  "repository": "https://github.com/indigotech/template-react.git",
+  "author": "Taqtile",
+  "license": "MIT"
+}
