@@ -16,7 +16,6 @@
     "clean": "rimraf dist",
     "prebuild": "yarn run clean",
     "build": "tsc",
-    "test": "jest --colors --verbose --coverage",
     "postbuild": "yarn run copy-files && clean-to-publish",
     "copy-files": "copyfiles './README.md' './LICENSE' 'dist/'",
     "prepare": "yarn run build"
@@ -34,8 +33,7 @@
     "reflect-metadata": "0.1.12",
     "rimraf": "2.6.2",
     "ts-jest": "21.0.1",
-    "typedi": "^0.6.1",
-    "typescript": "2.8.1"
+    "typedi": "^0.6.1"
   },
   "jest": {
     "transform": {
@@ -54,5 +52,8 @@
       "ts",
       "js"
     ]
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

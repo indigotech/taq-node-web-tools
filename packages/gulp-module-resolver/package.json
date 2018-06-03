@@ -12,7 +12,6 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "test": "test"
   },
   "dependencies": {
     "lodash.defaults": "4.2.0",
@@ -33,5 +32,8 @@
   },
   "engines": {
     "node": ">=4"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

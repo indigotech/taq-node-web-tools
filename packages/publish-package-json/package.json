@@ -12,5 +12,8 @@
   "license": "MIT",
   "bin": {
     "clean-to-publish": "./bin/index.js"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
