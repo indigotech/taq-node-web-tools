@@ -1,6 +1,6 @@
 {
   "name": "@taqtile/publish-package-json",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Commnad line utility to clean and copy package.json for publishing version",
   "homepage": "https://github.com/indigotech/taq-node-web-tools",
   "bugs": "https://github.com/indigotech/taq-node-web-tools/issues",
