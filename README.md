@@ -50,3 +50,6 @@ To publish packages, run:
 ```bash
 $ yarn run publish
 ```
+
+### Gotcha
+Unfortunately, Lerna does not support custom publish directories (see [issue](https://github.com/lerna/lerna/issues/1282)), that's why we use a custom script to publish to npm.
