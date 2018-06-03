@@ -1,0 +1,58 @@
+{
+  "name": "@taqtile/ts-webpack-builder",
+  "version": "0.1.0",
+  "description": "Functional building composers for webpack config",
+  "repository": "https://github.com/indigotech/template-react.git",
+  "author": "Taqtile",
+  "license": "MIT",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "scripts": {
+    "preinstall": "yarn cache clean @taqtile/publish-package-json",
+    "clean": "rimraf dist",
+    "prebuild": "yarn run clean",
+    "build": "tsc",
+    "test": "jest --colors --verbose --coverage",
+    "postbuild": "yarn run copy-files && clean-to-publish",
+    "copy-files": "copyfiles './README.md' './LICENSE' 'dist/'"
+  },
+  "devDependencies": {
+    "@taqtile/publish-package-json": "file:../publish-package-json",
+    "@types/jest": "22.2.3",
+    "@types/webpack": "4.4.0",
+    "copyfiles": "2.0.0",
+    "jest": "22.4.4",
+    "rimraf": "2.6.2",
+    "ts-jest": "22.4.6",
+    "typescript": "2.8.3",
+    "webpack": "4.8.3"
+  },
+  "peerDependencies": {
+    "typescript": "^2.8.3",
+    "webpack": "^4.8.3"
+  },
+  "dependencies": {
+    "webpack-merge": "4.1.2"
+  },
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "collectCoverageFrom": [
+      "!src/**/index.ts",
+      "src/**/*.ts"
+    ],
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|js)$",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "dist/*"
+    ],
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ]
+  },
+  "engines": {
+    "node": ">=4"
+  }
+}
