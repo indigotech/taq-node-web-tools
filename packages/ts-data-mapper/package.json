@@ -1,6 +1,6 @@
 {
   "name": "@taqtile/ts-data-mapper",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "TypeScript data mapper",
   "homepage": "https://github.com/indigotech/taq-node-web-tools",
   "bugs": "https://github.com/indigotech/taq-node-web-tools/issues",
@@ -28,7 +28,7 @@
     "lodash.isstring": "^4.0.1"
   },
   "devDependencies": {
-    "@taqtile/publish-package-json": "^0.2.1",
+    "@taqtile/publish-package-json": "^0.2.2",
     "@types/jest": "22.2.3",
     "copyfiles": "2.0.0",
     "jest": "22.4.4",
