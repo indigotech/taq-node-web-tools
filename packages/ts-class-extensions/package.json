@@ -2,13 +2,17 @@
   "name": "@taqtile/ts-class-extensions",
   "version": "0.1.0",
   "description": "TypeScript class extensions",
-  "repository": "https://github.com/indigotech/template-react.git",
+  "homepage": "https://github.com/indigotech/taq-node-web-tools",
+  "bugs": "https://github.com/indigotech/taq-node-web-tools/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/indigotech/taq-node-web-tools.git"
+  },
   "main": "index.js",
   "typings": "index.d.ts",
   "author": "Taqtile",
   "license": "MIT",
   "scripts": {
-    "preinstall": "yarn cache clean @taqtile/publish-package-json",
     "clean": "rimraf dist",
     "prebuild": "yarn run clean",
     "build": "tsc",
@@ -17,7 +21,7 @@
     "copy-files": "copyfiles './README.md' './LICENSE' 'dist/'"
   },
   "devDependencies": {
-    "@taqtile/publish-package-json": "file:../publish-package-json",
+    "@taqtile/publish-package-json": "0.1.0",
     "@types/jest": "22.2.3",
     "copyfiles": "2.0.0",
     "jest": "22.4.4",

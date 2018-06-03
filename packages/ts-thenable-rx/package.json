@@ -1,14 +1,18 @@
 {
-  "name": "@taqtile/ts-rx-extensions",
+  "name": "@taqtile/ts-thenable-rx",
   "version": "0.1.0",
-  "description": "TypeScript rx extensions",
-  "repository": "https://github.com/indigotech/template-react.git",
-  "main": "index.js",
-  "typings": "index.d.ts",
+  "description": "TypeScript thenable rx extensions",
+  "homepage": "https://github.com/indigotech/taq-node-web-tools",
+  "bugs": "https://github.com/indigotech/taq-node-web-tools/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/indigotech/taq-node-web-tools.git"
+  },
   "author": "Taqtile",
   "license": "MIT",
+  "main": "index.js",
+  "typings": "index.d.ts",
   "scripts": {
-    "preinstall": "yarn cache clean @taqtile/publish-package-json",
     "clean": "rimraf dist",
     "prebuild": "yarn run clean",
     "build": "tsc",
@@ -24,7 +28,7 @@
     "reflect-metadata": "0.1.12"
   },
   "devDependencies": {
-    "@taqtile/publish-package-json": "file:../publish-package-json",
+    "@taqtile/publish-package-json": "0.1.0",
     "@types/jest": "22.2.3",
     "copyfiles": "2.0.0",
     "jest": "22.4.4",
