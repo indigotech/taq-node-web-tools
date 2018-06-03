@@ -18,7 +18,8 @@
     "build": "tsc",
     "test": "jest --colors --verbose --coverage",
     "postbuild": "yarn run copy-files && clean-to-publish",
-    "copy-files": "copyfiles './README.md' './LICENSE' 'dist/'"
+    "copy-files": "copyfiles './README.md' './LICENSE' 'dist/'",
+    "prepare": "yarn run build"
   },
   "dependencies": {
     "rxjs": "6.1.0",
