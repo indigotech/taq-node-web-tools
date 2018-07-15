@@ -9,7 +9,7 @@ export function Injectable() {
     return class extends targetClass {
       constructor(...args: any[]) {
         console.assert(
-          isReactComponent(targetClass),
+          isReactClassComponent(targetClass),
           `You're using 'Injectable' on a class that is not a React component. This will probably crash on Safari.
           targetClass: ${targetClass}`
         )
@@ -29,23 +29,9 @@ export function Injectable() {
 }
 
 /** https://stackoverflow.com/a/41658173/3670829 */
-function isClassComponent(component) {
+function isReactClassComponent(component) {
   return (
       typeof component === 'function' &&
       !!component.prototype.isReactComponent
   ) ? true : false
-}
-
-function isFunctionComponent(component) {
-  return (
-      typeof component === 'function' &&
-      String(component).includes('return React.createElement')
-  ) ? true : false;
-}
-
-function isReactComponent(component) {
-  return (
-      isClassComponent(component) ||
-      isFunctionComponent(component)
-  ) ? true : false;
 }
