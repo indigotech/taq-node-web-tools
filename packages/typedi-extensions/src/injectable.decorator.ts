@@ -30,8 +30,5 @@ export function Injectable() {
 
 /** https://stackoverflow.com/a/41658173/3670829 */
 function isReactClassComponent(component) {
-  return (
-      typeof component === 'function' &&
-      !!component.prototype.isReactComponent
-  ) ? true : false
+  return typeof component === 'function' && component.prototype.isReactComponent;
 }
