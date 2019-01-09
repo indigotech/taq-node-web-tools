@@ -9,6 +9,7 @@
     "lib": ["es6", "esnext"],
     "declaration": true,
     "allowSyntheticDefaultImports": false,
+    "experimentalDecorators": true,
     "noImplicitAny": false,
     "preserveConstEnums": true,
     "noEmitHelpers": false,
