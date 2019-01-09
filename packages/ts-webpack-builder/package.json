@@ -1,6 +1,6 @@
 {
   "name": "@taqtile/ts-webpack-builder",
-  "version": "0.2.2",
+  "version": "0.2.3-alpha.0",
   "description": "Functional building composers for webpack config",
   "homepage": "https://github.com/indigotech/taq-node-web-tools",
   "bugs": "https://github.com/indigotech/taq-node-web-tools/issues",
@@ -22,21 +22,22 @@
     "prepare": "yarn run build"
   },
   "devDependencies": {
-    "@taqtile/publish-package-json": "^0.2.2",
-    "@types/jest": "22.2.3",
-    "@types/webpack": "4.4.0",
-    "copyfiles": "2.0.0",
-    "jest": "22.4.4",
-    "rimraf": "2.6.2",
-    "ts-jest": "22.4.6",
-    "webpack": "4.8.3"
+    "@taqtile/publish-package-json": "^0.2.3-alpha.0",
+    "@types/jest": "23.3.12",
+    "@types/webpack": "4.4.22",
+    "@types/webpack-dev-server": "3.1.1",
+    "copyfiles": "2.1.0",
+    "jest": "23.6.0",
+    "rimraf": "2.6.3",
+    "ts-jest": "23.10.5",
+    "webpack": "4.28.1"
   },
   "peerDependencies": {
-    "typescript": "^2.8.3",
-    "webpack": "^4.8.3"
+    "typescript": "^3.1.6",
+    "webpack": "^4.28.1"
   },
   "dependencies": {
-    "webpack-merge": "4.1.2"
+    "webpack-merge": "4.2.1"
   },
   "jest": {
     "transform": {

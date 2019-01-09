@@ -50,7 +50,7 @@ export type EntryType = string | string[] | Entry;
  * Set devServer to config
  * @param devServer
  */
-export function setDevServer(devServer: DevServer): ConfigComposer {
+export function setDevServer<DevServer>(devServer: DevServer): ConfigComposer {
   return setProperty('devServer', devServer);
 }
 

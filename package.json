@@ -3,14 +3,11 @@
   "description": "Taqtile's Tools for Web and Node development",
   "homepage": "https://github.com/indigotech/taq-node-web-tools",
   "bugs": "https://github.com/indigotech/taq-node-web-tools/issues",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/indigotech/taq-node-web-tools.git"
-  },
+  "repository": "https://github.com/indigotech/taq-node-web-tools.git",
   "license": "MIT",
   "private": true,
   "engines": {
-    "node": ">=8.9.1 <9.0.0",
+    "node": ">=9",
     "yarn": ">=1.3.2 <2.0.0"
   },
   "scripts": {
@@ -21,7 +18,9 @@
     "publish": "lerna publish --skip-npm && yarn run build && sh tools/publish.sh"
   },
   "devDependencies": {
-    "lerna": "2.11.0",
-    "typescript": "2.9.1"
-  }
+    "lerna": "3.10.2",
+    "typescript": "3.1.6"
+  },
+  "version": "1.0.1",
+  "main": "index.js"
 }

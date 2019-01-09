@@ -1,6 +1,6 @@
 {
   "name": "@taqtile/ts-mobx-persist-extensions",
-  "version": "0.2.2",
+  "version": "0.2.3-alpha.0",
   "description": "Mobx Persist Extension",
   "homepage": "https://github.com/indigotech/taq-node-web-tools",
   "bugs": "https://github.com/indigotech/taq-node-web-tools/issues",
@@ -25,14 +25,14 @@
     "mobx-persist": "^0.4.1"
   },
   "devDependencies": {
-    "@taqtile/publish-package-json": "^0.2.2",
-    "@types/jest": "22.2.3",
-    "copyfiles": "2.0.0",
-    "jest": "22.4.4",
-    "mobx": "4.3.0",
-    "mobx-persist": "^0.4.1",
-    "rimraf": "2.6.2",
-    "ts-jest": "22.4.6"
+    "@taqtile/publish-package-json": "^0.2.3-alpha.0",
+    "@types/jest": "23.3.12",
+    "copyfiles": "2.1.0",
+    "jest": "23.6.0",
+    "mobx": "5.8.0",
+    "mobx-persist": "0.4.1",
+    "rimraf": "2.6.3",
+    "ts-jest": "23.10.5"
   },
   "jest": {
     "transform": {
