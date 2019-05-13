@@ -1,7 +1,6 @@
-import { Configuration } from 'webpack';
 import * as merge from 'webpack-merge';
 
-import { ConfigComposer } from './composers';
+import { ConfigComposer, Configuration } from './composers';
 
 /**
  * Creates a webpack config by invoking each composer

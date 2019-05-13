@@ -1,48 +1,6 @@
-import { WatchOptions, Entry, Node, Output, Resolve } from 'webpack';
+import { Entry, Node, Output, Resolve } from 'webpack';
 
 import { ConfigComposer, setProperty } from './';
-
-export interface DevServer {
-  after?: Function;
-  allowedHosts?: string[];
-  before?: Function;
-  bonjour?: boolean;
-  clientLogLevel?: "none" | "error" | "warning" | "info";
-  color?: boolean;
-  compress?: boolean;
-  contentBase?: boolean | string | string[];
-  disableHostCheck?: boolean;
-  filename?: string;
-  headers?: object;
-  historyApiFallback?: boolean | object;
-  host?: string;
-  hot?: boolean;
-  hotOnly?: boolean;
-  https?: boolean | object;
-  index?: string;
-  info?: boolean;
-  inline?: boolean;
-  lazy?: boolean;
-  noInfo?: boolean;
-  open?: boolean;
-  openPage?: string;
-  overlay?: boolean | object;
-  pfx?: string;
-  pfxPassphrase?: string;
-  port?: number;
-  proxy?: object | object[];
-  progress?: boolean;
-  public?: string;
-  publicPath?: string;
-  quiet?: boolean;
-  socket?: string;
-  staticOptions?: object;
-  stats?: string | object;
-  stdin?: boolean;
-  useLocalIp?: boolean;
-  watchContentBase?: boolean;
-  watchOptions?: WatchOptions;
-}
 
 export type EntryType = string | string[] | Entry;
 
