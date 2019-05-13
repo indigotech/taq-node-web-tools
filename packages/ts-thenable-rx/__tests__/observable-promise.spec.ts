@@ -13,7 +13,7 @@ class AsObservablePromiseTest {
       } catch (e) {
         reject(e);
       }
-    });
+    }) as ObservablePromise<any>;
   }
 }
 
