@@ -14,7 +14,8 @@
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build",
     "test": "lerna run test",
-    "publish": "lerna publish --skip-npm && yarn run build && sh tools/publish.sh",
+    "bump-version": "lerna version",
+    "publish": "yarn run build && sh tools/publish.sh",
     "lerna": "lerna"
   },
   "devDependencies": {

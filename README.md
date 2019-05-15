@@ -48,6 +48,7 @@ $ yarn run test
 To publish packages, run:
 
 ```bash
+$ yarn run bump-version [major | minor | patch | premajor | preminor | prepatch | prerelease]
 $ yarn run publish
 ```
 
