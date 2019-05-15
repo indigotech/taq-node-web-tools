@@ -22,13 +22,15 @@
   },
   "devDependencies": {
     "@taqtile/publish-package-json": "^0.3.3-alpha.1",
+    "@types/jest": "24.0.12",
     "copyfiles": "2.1.0",
-    "jest": "23.6.0",
-    "rimraf": "2.6.3"
+    "jest": "24.8.0",
+    "rimraf": "2.6.3",
+    "ts-jest": "24.0.2"
   },
   "jest": {
     "transform": {
-      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+      ".(ts|tsx)": "ts-jest"
     },
     "collectCoverageFrom": [
       "!src/**/index.ts",

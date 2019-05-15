@@ -1,6 +1,4 @@
-import { Configuration } from 'webpack';
-
-import { ConfigComposer } from './';
+import { Configuration, ConfigComposer } from './';
 
 /**
  * Set a property to config
