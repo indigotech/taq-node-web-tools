@@ -1,6 +1,6 @@
 {
   "name": "@taqtile/ts-thenable-rx",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "TypeScript thenable rx extensions",
   "homepage": "https://github.com/indigotech/taq-node-web-tools",
   "bugs": "https://github.com/indigotech/taq-node-web-tools/issues",
@@ -29,7 +29,7 @@
     "reflect-metadata": "0.1.13"
   },
   "devDependencies": {
-    "@taqtile/publish-package-json": "^0.5.0",
+    "@taqtile/publish-package-json": "^0.6.0",
     "@types/jest": "26.0.19",
     "copyfiles": "2.4.1",
     "jest": "26.6.3",
