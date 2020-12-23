@@ -1,6 +1,7 @@
-import { Entry, Node, Output, Resolve } from 'webpack';
+import { Entry, Module, Node, Output, Resolve } from 'webpack';
 
-import { ConfigComposer, setProperty } from './';
+import { ConfigComposer } from './config.composer';
+import { setProperty } from './set-property';
 
 export type EntryType = string | string[] | Entry;
 
@@ -42,4 +43,11 @@ export function setOutput(output: Output): ConfigComposer {
  */
 export function setResolve(resolve: Resolve): ConfigComposer {
   return setProperty('resolve', resolve);
+}
+/**
+ * Set resolve to config
+ * @param resolve
+ */
+export function setModule(module: Module): ConfigComposer {
+  return setProperty('module', module);
 }

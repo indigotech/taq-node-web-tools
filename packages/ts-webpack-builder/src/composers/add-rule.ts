@@ -1,8 +1,7 @@
-import { Condition, Loader, Rule } from 'webpack';
+import { RuleSetCondition, RuleSetUse, RuleSetRule } from 'webpack';
 
-import { ConfigComposer, setProperty } from './';
-
-export type Conditions = Condition | Condition[];
+import { ConfigComposer } from './config.composer';
+import { setProperty } from './set-property';
 
 /**
  * Add a rule to config
@@ -30,15 +29,15 @@ export type Conditions = Condition | Condition[];
  * @param loader
  * @param exclude
  */
-export function addRule(testOrRule: Conditions | Rule, loader?: Loader, exclude?: Conditions): ConfigComposer;
-export function addRule(testOrRule: Rule): ConfigComposer {
-  const rules: Rule[] = [];
+export function addRule(testOrRule: RuleSetCondition | RuleSetRule, use?: RuleSetUse, exclude?: RuleSetCondition): ConfigComposer;
+export function addRule(testOrRule: RuleSetRule): ConfigComposer {
+  const rules: RuleSetRule[] = [];
   if (arguments.length == 1) {
-    rules.push(testOrRule as Rule);
+    rules.push(testOrRule as RuleSetRule);
   } else {
-    const loader = arguments[1];
+    const use = arguments[1];
     const exclude = arguments[2];
-    rules.push({ test: testOrRule as Condition, loader, exclude });
+    rules.push({ test: testOrRule as RuleSetRule, use, exclude });
   }
   return setProperty('module', { rules });
 }

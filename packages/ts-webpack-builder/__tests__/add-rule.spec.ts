@@ -7,17 +7,17 @@ describe('addRule', () => {
     const config = addRule(/\*.ts$/, 'ts-lint', /node_modules/)();
     expect(config).toHaveProperty('module');
     expect(config.module).toHaveProperty('rules');
-    expect(config.module.rules).toHaveLength(1);
+    expect(config.module?.rules).toHaveLength(1);
 
     const rule = config.module.rules[0];
     expect(rule).toHaveProperty('test');
-    expect(rule).toHaveProperty('loader');
+    expect(rule).toHaveProperty('use');
     expect(rule).toHaveProperty('exclude');
   });
 
   it('adds a custom rule', () => {
     const config = addRule({
-      test: /\*.ts$/, enforce: 'pre', loader: 'ts-lint',
+      test: /\*.ts$/, enforce: 'pre', use: 'ts-lint',
     })();
     expect(config).toHaveProperty('module');
     expect(config.module).toHaveProperty('rules');
@@ -25,7 +25,7 @@ describe('addRule', () => {
 
     const rule = config.module.rules[0];
     expect(rule).toHaveProperty('test');
-    expect(rule).toHaveProperty('loader');
+    expect(rule).toHaveProperty('use');
     expect(rule).toHaveProperty('enforce');
   });
 });
