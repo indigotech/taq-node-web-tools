@@ -1,6 +1,7 @@
 import { Plugin } from 'webpack';
 
-import { ConfigComposer, setProperty } from './';
+import { ConfigComposer } from './config.composer';
+import { setProperty } from './set-property';
 
 /**
  * Add one or more plugins to config

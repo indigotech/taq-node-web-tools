@@ -1,6 +1,6 @@
-import * as merge from 'webpack-merge';
+import { merge } from 'webpack-merge';
 
-import { ConfigComposer } from './';
+import { ConfigComposer } from './config.composer';
 
 /**
  * Add an array of composers if the condition is true

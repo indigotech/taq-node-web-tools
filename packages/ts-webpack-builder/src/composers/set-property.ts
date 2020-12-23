@@ -1,4 +1,4 @@
-import { Configuration, ConfigComposer } from './';
+import { ConfigComposer, Configuration } from "./config.composer";
 
 /**
  * Set a property to config
