@@ -601,6 +601,11 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
+"@taqtile/publish-package-json@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@taqtile/publish-package-json/-/publish-package-json-0.6.0.tgz#e32f85912297b0de45c392634c4fbe418a6799da"
+  integrity sha512-deiEUfo5epMztJPjrIeRVX23VRC5VdyHO+PKtMQkua3ZO5Ac79LufpGKGMbu7oAAanql6jzM67Z6tZi+IH4nzQ==
+
 "@types/babel__core@^7.0.0", "@types/babel__core@^7.1.7":
   version "7.1.12"
   resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.1.12.tgz#4d8e9e51eb265552a7e4f1ff2219ab6133bdfb2d"
@@ -3767,9 +3772,9 @@ write-file-atomic@^3.0.0:
     typedarray-to-buffer "^3.1.5"
 
 ws@^7.2.3:
-  version "7.4.1"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-7.4.1.tgz#a333be02696bd0e54cea0434e21dcc8a9ac294bb"
-  integrity sha512-pTsP8UAfhy3sk1lSk/O/s4tjD0CRwvMnzvwr4OKGX7ZvqZtUyx4KIJB5JWbkykPoc55tixMGgTNoh3k4FkNGFQ==
+  version "7.4.6"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-7.4.6.tgz#5654ca8ecdeee47c33a9a4bf6d28e2be2980377c"
+  integrity sha512-YmhHDO4MzaDLB+M9ym/mDA5z0naX8j7SIlT8f8z+I0VtzsRbekxEutHSme7NPS2qE8StCYQNUnfWdXta/Yu85A==
 
 xml-name-validator@^3.0.0:
   version "3.0.0"
