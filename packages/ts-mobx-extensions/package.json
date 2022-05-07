@@ -1,6 +1,6 @@
 {
   "name": "@taqtile/ts-mobx-extensions",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "MobX extensions",
   "homepage": "https://github.com/indigotech/taq-node-web-tools",
   "bugs": "https://github.com/indigotech/taq-node-web-tools/issues",
@@ -21,7 +21,7 @@
     "prepare": "yarn run build"
   },
   "devDependencies": {
-    "@taqtile/publish-package-json": "^0.6.0",
+    "@taqtile/publish-package-json": "^0.7.0",
     "@types/jest": "27.5.0",
     "copyfiles": "2.4.1",
     "jest": "28.1.0",
