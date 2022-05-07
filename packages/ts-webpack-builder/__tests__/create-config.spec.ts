@@ -12,7 +12,7 @@ describe('createConfig', () => {
       addRule(/\*.css$/, 'css-loader', /node_modules/),
       addPlugins(new NoopPlugin()),
       addPlugins(new NoopPlugin(), new NoopPlugin()),
-      () => ({ devtool: false }),
+      () => ({ devtool: '1' }),
       setEntry({ app: './src/app.ts' }),
       setOutput({ path: 'dist', filename: 'bundle.js' })
     ];

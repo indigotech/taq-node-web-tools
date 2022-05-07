@@ -2,7 +2,7 @@ import 'jest';
 
 import { onCondition } from '../src';
 
-const dummyComposer = () => () => ({ devtool: false });
+const dummyComposer = () => () => ({ devtool: '1' });
 
 describe('onCondition', () => {
   it('adds a composer on truthy condition', () => {

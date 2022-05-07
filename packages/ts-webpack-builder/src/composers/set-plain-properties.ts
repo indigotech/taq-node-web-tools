@@ -1,4 +1,4 @@
-import { Entry, Module, Node, Output, Resolve } from 'webpack';
+import { Entry, ModuleOptions, ResolveOptions } from 'webpack';
 
 import { ConfigComposer } from './config.composer';
 import { setProperty } from './set-property';
@@ -25,15 +25,15 @@ export function setEntry(entry: EntryType): ConfigComposer {
  * Set node to config
  * @param node
  */
-export function setNode(node: Node): ConfigComposer {
+export function setNode(node: any): ConfigComposer {
   return setProperty('node', node);
 }
 
 /**
- * Set output to config
+ * Set output to configy
  * @param output
  */
-export function setOutput(output: Output): ConfigComposer {
+export function setOutput(output: any): ConfigComposer {
   return setProperty('output', output);
 }
 
@@ -41,13 +41,13 @@ export function setOutput(output: Output): ConfigComposer {
  * Set resolve to config
  * @param resolve
  */
-export function setResolve(resolve: Resolve): ConfigComposer {
+export function setResolve(resolve: ResolveOptions): ConfigComposer {
   return setProperty('resolve', resolve);
 }
 /**
  * Set resolve to config
  * @param resolve
  */
-export function setModule(module: Module): ConfigComposer {
+export function setModule(module: ModuleOptions): ConfigComposer {
   return setProperty('module', module);
 }

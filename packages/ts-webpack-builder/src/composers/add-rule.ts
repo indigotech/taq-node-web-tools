@@ -37,7 +37,7 @@ export function addRule(testOrRule: RuleSetRule): ConfigComposer {
   } else {
     const use = arguments[1];
     const exclude = arguments[2];
-    rules.push({ test: testOrRule as RuleSetRule, use, exclude });
+    rules.push({ test: testOrRule as any, use, exclude });
   }
   return setProperty('module', { rules });
 }
