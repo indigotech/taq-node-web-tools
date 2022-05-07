@@ -1,11 +1,11 @@
-import { IReactComponent, observer as mobxObserver } from 'mobx-react';
+import { observer as mobxObserver } from 'mobx-react';
 import { Component, ComponentState } from 'react';
 
 export interface MyComponentClass<P = {}> {
   new(props: P, context: any, ...injectionFields): Component<P, ComponentState>;
 }
 
-export function mobxObserverTransformer<P>(clazz: IReactComponent<P>): any {
+export function mobxObserverTransformer<P>(clazz: Component<P>): any {
   return mobxObserver(clazz);
 }
 

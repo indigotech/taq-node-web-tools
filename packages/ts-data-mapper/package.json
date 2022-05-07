@@ -1,6 +1,6 @@
 {
   "name": "@taqtile/ts-data-mapper",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "TypeScript data mapper",
   "homepage": "https://github.com/indigotech/taq-node-web-tools",
   "bugs": "https://github.com/indigotech/taq-node-web-tools/issues",
@@ -28,12 +28,12 @@
     "lodash.isstring": "4.0.1"
   },
   "devDependencies": {
-    "@taqtile/publish-package-json": "^0.6.0",
-    "@types/jest": "26.0.19",
+    "@taqtile/publish-package-json": "^0.7.0",
+    "@types/jest": "27.5.0",
     "copyfiles": "2.4.1",
-    "jest": "26.6.3",
+    "jest": "28.1.0",
     "rimraf": "3.0.2",
-    "ts-jest": "26.4.4"
+    "ts-jest": "28.0.1"
   },
   "jest": {
     "transform": {
