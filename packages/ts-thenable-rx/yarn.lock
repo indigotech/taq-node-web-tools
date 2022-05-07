@@ -628,6 +628,11 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
+"@taqtile/publish-package-json@^0.7.1":
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/@taqtile/publish-package-json/-/publish-package-json-0.7.1.tgz#d9f242d1087d0aaafccff43f14599d16825b9563"
+  integrity sha512-Y8iej8TjQ1eM4xrjoUtpfjnOdfrZr3/F7vgWDhnHnEGdZC7adbLlar8dM5/tU2X4NmW18ujJM0ehASdBBDSENw==
+
 "@types/babel__core@^7.1.14":
   version "7.1.19"
   resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.1.19.tgz#7b497495b7d1b4812bdb9d02804d0576f43ee460"
@@ -734,12 +739,7 @@ ansi-escapes@^4.2.1:
   dependencies:
     type-fest "^0.11.0"
 
-ansi-regex@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-5.0.0.tgz#388539f55179bf39339c81af30a654d69f87cb75"
-  integrity sha512-bY6fj56OUQ0hU1KjFNDQuJFezqKdrAyFdIevADiqrWHwSlbmBNMHp5ak2f40Pm8JTFyM2mqxkG6ngkHO11f/lg==
-
-ansi-regex@^5.0.1:
+ansi-regex@^5.0.0, ansi-regex@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-5.0.1.tgz#082cb2c89c9fe8659a311a53bd6a4dc5301db304"
   integrity sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==
