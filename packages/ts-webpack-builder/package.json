@@ -1,6 +1,6 @@
 {
   "name": "@taqtile/ts-webpack-builder",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "Functional building composers for webpack config",
   "homepage": "https://github.com/indigotech/taq-node-web-tools",
   "bugs": "https://github.com/indigotech/taq-node-web-tools/issues",
@@ -22,7 +22,7 @@
     "prepare": "yarn run build"
   },
   "devDependencies": {
-    "@taqtile/publish-package-json": "^0.7.0",
+    "@taqtile/publish-package-json": "^0.7.1",
     "@types/jest": "27.5.0",
     "@types/webpack": "5.28.0",
     "@types/webpack-dev-server": "4.7.2",
