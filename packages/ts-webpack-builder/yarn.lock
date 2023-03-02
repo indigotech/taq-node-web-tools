@@ -549,6 +549,11 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
+"@taqtile/publish-package-json@^0.7.1":
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/@taqtile/publish-package-json/-/publish-package-json-0.7.1.tgz#d9f242d1087d0aaafccff43f14599d16825b9563"
+  integrity sha512-Y8iej8TjQ1eM4xrjoUtpfjnOdfrZr3/F7vgWDhnHnEGdZC7adbLlar8dM5/tU2X4NmW18ujJM0ehASdBBDSENw==
+
 "@types/babel__core@^7.1.14":
   version "7.1.19"
   resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.1.19.tgz#7b497495b7d1b4812bdb9d02804d0576f43ee460"
@@ -1502,9 +1507,9 @@ dns-equal@^1.0.0:
   integrity sha1-s55/HabrCnW6nBcySzR1PEfgZU0=
 
 dns-packet@^5.2.2:
-  version "5.3.1"
-  resolved "https://registry.yarnpkg.com/dns-packet/-/dns-packet-5.3.1.tgz#eb94413789daec0f0ebe2fcc230bdc9d7c91b43d"
-  integrity sha512-spBwIj0TK0Ey3666GwIdWVfUpLyubpU53BTCu8iPn4r4oXd9O14Hjg3EHw3ts2oed77/SeckunUYCyRlSngqHw==
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/dns-packet/-/dns-packet-5.4.0.tgz#1f88477cf9f27e78a213fb6d118ae38e759a879b"
+  integrity sha512-EgqGeaBB8hLiHLZtp/IbaDQTL8pZ0+IvwzSHA6d7VyMDM+B9hgddEMa9xjK5oYnw0ci0JQ6g2XCD7/f6cafU6g==
   dependencies:
     "@leichtgewicht/ip-codec" "^2.0.1"
 
