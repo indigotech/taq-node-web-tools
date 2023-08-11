@@ -24,15 +24,7 @@ $ nvm install
 - Install the dependencies
 
 ```bash
-$ yarn
-```
-
-## Boostrapping packages
-
-To install and link all dependencies from packages, run:
-
-```bash
-$ yarn run bootstrap
+$ npm install
 ```
 
 ## Testing
@@ -40,7 +32,7 @@ $ yarn run bootstrap
 To run all available tests from each package, run:
 
 ```bash
-$ yarn run test
+$ npm run test
 ```
 
 ## Publishing
@@ -48,8 +40,8 @@ $ yarn run test
 To publish packages, run:
 
 ```bash
-$ yarn run bump-version [major | minor | patch | premajor | preminor | prepatch | prerelease]
-$ yarn run publish
+$ npm run bump-version [major | minor | patch | premajor | preminor | prepatch | prerelease]
+$ npm run publish
 ```
 
 ### Gotcha
